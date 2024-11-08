@@ -1,3 +1,5 @@
+.vscode/
+.cache/
 Prerequisites
 *.d
 
@@ -30,3 +32,5 @@ Prerequisites
 *.exe
 *.out
 *.app
+
+build/

@@ -43,7 +43,6 @@ int wsh_execute(char **args) {
     }
   }
   return wsh_launch(args);
-  return 0;
 }
 
 int wsh_launch(char **args) {

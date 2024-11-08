@@ -1,6 +1,6 @@
 # 简单的 Shell 实现
 
-这是一个用 C 语言和 C++ 实现的简单 shell，基于 "Write Yourself a Shell" 教程。
+这是一个用 C 语言和 C++ 实现的简单 shell，基于 [Write Yourself a Shell](https://brennan.io/2015/01/16/write-a-shell-in-c/) 教程。
 
 ## 功能
 
@@ -19,7 +19,7 @@
   - `main.cpp`：主程序文件，包含 shell 的主要逻辑
   - `builtin.cpp`：包含内建命令的实现
   - `builtin.h`：内建命令的头文件
-  - `Makefile`：用于编译 C++ 实现的 shell 的 Makefile
+  - `CMakeLists`：用于编译 C++ 实现的 shell 的 CMakeLists 文件
 
 ## 编译和运行
 
@@ -46,6 +46,9 @@
 
     ```sh
     cd CPP
+    mkdir build
+    cd build
+    cmake ..
     make
     ```
 
